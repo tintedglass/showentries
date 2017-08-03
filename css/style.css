@@ -1,0 +1,59 @@
+body {
+    padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+footer {
+    margin: 50px 0;
+}
+
+#list-items {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-right:20px;
+}
+
+#list-items li {
+    border:1px solid #e8e5e5;
+    border-radius: 4px;
+    box-shadow: 2px 2px 4px 0px rgba(224,224,224,1);
+    margin-top:10px;
+    padding:10px;
+    margin-left:-20px;
+}
+
+#list-items li button{
+    margin-left:20px;
+}
+
+/*li:nth-child(odd) {
+    background-color: #CCC;
+}
+
+li:nth-child(even) {
+    background-color: white;
+}*/
+
+li:hover {
+    cursor: move;
+}
+
+#update-button, #update-message {
+    height: 30px;
+    margin-left: 20px;
+    width: 200px;
+    font-weight: bold;
+}
+
+.order{
+    line-height:35px;
+    height:35px;
+    width:35px;
+    text-align:center;
+    color:red;
+    border:1px solid red;
+    font-weight: bold;
+    margin-right:10px;
+    font-size:20px;
+}
